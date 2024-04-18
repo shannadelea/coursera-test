@@ -12,6 +12,8 @@ names[9]="Jim";
 
 for (var i = 0; 1 < names.length; i++) {
   if(names[i].charAt(0)==='J' || names[i].charAt(0)==='j') {
-    console.log("Goodbye " + name [i])
-    //}
-}
+    console.log("Goodbye " +name [i])
+    }
+    else{
+      console.log("Hello "+ names[i]) 
+    }
