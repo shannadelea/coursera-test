@@ -1,16 +1,18 @@
-(function () {
+var names=new Array();
+names[0]="Yaakov";
+names[1]="John";
+names[2]="Jen";
+names[3]="Jason";
+names[4]="Paul";
+names[5]="Frank";
+names[6]="Larry";
+names[7]="Paula";
+names[8]="Laura";
+names[9]="Jim";
 
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-
-for (var i = 0; i < names.length; i++) {
-  var firstLetter = names[i].charAt(0).toLowerCase();
-
-  if (firstLetter === 'j') {
-    byeSpeaker(names[i]);
-  }
-  else {
-    helloSpeaker(names[i]);
-  }
+console.log(names[0]charAt(0));
+for (var i = 0; 1 < names.length; i++) {
+  //if(names[i].chartAt(0)==='J' || names[i].chartAt(0)==='j')
+    // console.log("Goodbye " + name [i])
+    //}
 }
-
-})();
