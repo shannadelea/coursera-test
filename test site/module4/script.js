@@ -10,9 +10,8 @@ names[7]="Paula";
 names[8]="Laura";
 names[9]="Jim";
 
-console.log(names[0]charAt(0));
 for (var i = 0; 1 < names.length; i++) {
-  //if(names[i].chartAt(0)==='J' || names[i].chartAt(0)==='j')
-    // console.log("Goodbye " + name [i])
+  if(names[i].charAt(0)==='J' || names[i].charAt(0)==='j') {
+    console.log("Goodbye " + name [i])
     //}
 }
